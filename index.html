@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Visualizer</title>
+    <style>
+        body {
+            background: #4b6cb7;
+            background: -webkit-linear-gradient(to right, #182848, #4b6cb7);
+            background: linear-gradient(to right, #182848, #4b6cb7);
+            padding: 0px;
+            margin: 0px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: azure;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Audio Visualizer</h3>
+    <h4>Upload an audio file to see the visualizer. A test file is provided.</h4>
+    <input type="file" id="file" accept="audio/*" aria-label="file" />
+    <div id="audio"></div>
+    <canvas id="canvas"></canvas>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
