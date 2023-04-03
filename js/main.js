@@ -12,7 +12,7 @@ var canvas,
 var audio = new Audio();
 
 audio.id = "audio_player";
-audio.src = "/mp3/test-cf.mp3";
+audio.src = "/test-cf.mp3";
 audio.controls = true;
 audio.loop = false;
 audio.autoplay = false;
